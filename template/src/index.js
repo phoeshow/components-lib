@@ -2,7 +2,6 @@
 import './style/index.css'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import Hello from './components/Hello'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
-
 let componentsList = {
   Hello{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
