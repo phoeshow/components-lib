@@ -4,8 +4,7 @@
   "license": "MIT",
   "description": "Use vue-cli for create a components library.",
   "scripts": {
-    "docs": "cd docs && gitbook serve",
-    "docs:deploy": "bash ./deploy-docs.sh"
+
   },
   "devDependencies": {
     "vue-cli": "^2.8.1"

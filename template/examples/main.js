@@ -7,10 +7,10 @@ import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
-import hello from '../src/components/Hello'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import {{ name }} from '../src'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(hello){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use({{ name }}){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 /* eslint-disable no-new */
 new Vue({
